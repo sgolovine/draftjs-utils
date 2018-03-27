@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
 import Sidebar from "react-sidebar"
+import SidebarListItem from "components/SidebarListItem/SidebarListItem"
 
 const sidebarStyles = {
   root: {
@@ -54,7 +55,15 @@ const sidebarStyles = {
 }
 class AppSidebar extends Component {
   renderSidebarContent() {
-    return <p>Sidebar Content</p>
+    return (
+      <React.Fragment>
+        <SidebarListItem title="Item 1" />
+        <SidebarListItem title="Item 2" />
+        <SidebarListItem title="Item 3" />
+        <SidebarListItem title="Item 4" />
+        <SidebarListItem title="Item 5" />
+      </React.Fragment>
+    )
   }
   render() {
     return (
