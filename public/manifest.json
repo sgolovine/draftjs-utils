@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Draft.js Utils",
+  "name": "A Collection of Draft.js Utilities",
   "icons": [
     {
       "src": "favicon.ico",
